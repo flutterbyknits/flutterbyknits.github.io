@@ -1,0 +1,21 @@
+.icn-arrow-black {
+	width: 11px;
+	height: 14px;
+	background-position: 0 0;
+}
+
+.icn-arrow-white {
+	width: 11px;
+	height: 14px;
+	background-position: -20px 0;
+}
+
+.icn-arrow-black, .icn-arrow-white {
+	background-size: 40px 20px;
+	background-repeat: no-repeat;
+	background-image: url("../../images/sprites/sprite.png");
+}
+
+.svg .icn-arrow-black, .svg .icn-arrow-white {
+	background-image: url("../../images/sprites/sprite.svg");
+}

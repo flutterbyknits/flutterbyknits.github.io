@@ -1,0 +1,152 @@
+@import 'common/_meyer-reset';
+@import 'common/_h5bp';
+@import 'common/_fonts';
+@import 'common/_variables';
+@import 'common/_mixins';
+@import 'common/_spritesheet';
+
+@import 'vendor/_bootstrap';
+
+* {
+  font-family: 'PT Sans', sans-serif;
+}
+nav.main {
+  background:#ccc;
+  ul {
+     li {
+       display:inline-block;
+       padding: 0 20px;
+     }
+  }
+  margin-bottom: 40px;
+}
+
+.blog-nav {
+  background:#ccc;
+  margin-bottom:40px;
+  line-height:20px;
+}
+
+.blog {
+  img.main {
+    width:100%;
+  }
+  h2 {
+    margin-top:0;
+  }
+
+  .additional {
+    padding-top: 20px;
+
+    img {
+      display:block;
+      &.left {
+        float:left;
+        margin:10px 10px 10px 0;
+      }
+      &.right {
+        float:right;
+        margin:10px 0 10px 10px ;
+      }
+      &.center{
+        margin:10px auto;
+      }
+    }
+
+    blockquote {
+
+    }
+  }
+}
+
+.pattern-images {
+  img {
+    width:100%;
+  }
+}
+.pattern-details {
+  .tab-pane {
+    padding:40px 0;
+    h2 {margin-top:0;}
+  }
+}
+
+.patterns-index {
+  .mix{
+	display: none;
+}
+  .pattern-panel {
+  img {
+    width:100%;
+  }
+  h2 {
+    margin-top:10px;
+  }
+}
+}
+
+.about {
+  img {
+    width:100%;
+  }
+  h2 {
+    margin-top:0;
+  }
+}
+
+#sync1 .item{
+    background: #0c83e7;
+    padding-top:100px;
+    width:100%;
+    height:300px;
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+#sync2 .item{
+    background: #C9C9C9;
+    height: 40px;
+    width:40px;
+    margin: 5px 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+#sync2 .item h1{
+  font-size: 18px;
+  line-height: 50px;
+}
+#sync2 .synced .item{
+  background: #0c83e7;
+}
+
+.find-me {
+  margin-top:40px;
+}
+
+.main-footer {
+  padding: 10px;
+  margin-top:40px;
+.links, .social-links {
+  display:inline;
+
+  li {
+    display:inline-block;
+  }
+  li:not(:last-child):after {
+      content:' | ';
+  }
+
+}
+
+.social-links {
+  float: right;
+}
+
+}
