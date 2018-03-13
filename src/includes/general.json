@@ -1,0 +1,43 @@
+[{
+	"title": "Expedia - Excellence Resorts",
+	"bookingText": "Book Now",
+	"expediaLink": "https://www.expedia.com",
+	"excellenceLink": "poppop/",
+	"images": {
+		"excellenceDesktop": "../images/mobile/logo_excellence_resorts.png",
+		"excellenceMobile": "../images/mobile/logo_excellence_resorts.png",
+		"expediaDesktop": "../images/mobile/logo expedia.png",
+		"expediaMobile": "../images/mobile/logo expedia.png",
+		"excellenceFooterDesktop": "../images/logos/logo_excellence_resorts_white.png",
+		"excellenceFooterMobile": "../images/logos/logo_excellence_resorts_white.png",
+		"expediaFooterDesktop": "../images/logos/expedia_white@2x.png",
+		"expediaFooterMobile": "../images/logos/expedia_white@2x.png"
+	},
+	"footer": {
+		"links": [{
+		        "txt": "Terms of Use",
+		        "href": "#"
+		    },
+		    {
+		        "txt": "Privacy Policy",
+		        "href": "#"
+		    }
+		],
+		"social": [{
+		        "txt": "instagram",
+		        "href": "#",
+						"icon":"../images/icons/instagram.png"
+		    },
+		    {
+		        "txt": "twitter",
+		        "href": "#",
+						"icon":"../images/icons/twitter.png"
+		    },
+				{
+						"txt": "facebook",
+						"href": "#",
+						"icon":"../images/icons/facebook.png"
+				}
+		]
+	}
+	}]

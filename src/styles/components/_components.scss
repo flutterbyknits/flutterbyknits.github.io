@@ -7,3 +7,23 @@
 //**********************************************/
 
 @import '_nav.scss';
+
+.header-logo {
+  height: 100px;
+  width:auto;
+  margin: 30px auto;
+}
+
+.top-bar {
+  background-color:$primary-color;
+  color:$white;
+
+  .social {
+    text-align:right;
+    font-size:2rem;
+    li {
+      display:inline-block;
+    }
+
+  }
+}
