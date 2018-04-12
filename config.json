@@ -18,6 +18,7 @@
 			"scripts": "dist/scripts",
 			"styles": "dist/styles",
 			"html": "dist/**/*.html"
+
 		}
 	},
 	"browserSync": {

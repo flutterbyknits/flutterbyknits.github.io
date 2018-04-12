@@ -40,6 +40,10 @@
     "stylelint-scss": "~2.0.1",
     "vinyl-buffer": "~1.0.0",
     "vinyl-source-stream": "~1.1.0",
-    "watchify": "~3.9.0"
+    "watchify": "~3.9.0",
+    "gulp-svg-sprite": "~1.2.9"
+  },
+  "dependencies": {
+    "beesGame": "beeFlaherty/duesouth-widget"
   }
 }

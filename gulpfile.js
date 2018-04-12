@@ -28,6 +28,7 @@ require('./gulp-tasks/es-lint')(gulp, plugins, config, errorHandler);
 
 // Image minification
 require('./gulp-tasks/image-min')(gulp, plugins, config, errorHandler);
+require('./gulp-tasks/spritesmith')(gulp, plugins, config, errorHandler);
 
 // HTML templating
 require('./gulp-tasks/html-templating-develop')(gulp, plugins, config, errorHandler);
